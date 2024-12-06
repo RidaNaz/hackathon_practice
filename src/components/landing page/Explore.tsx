@@ -39,7 +39,7 @@ export default function Explore() {
                                         alt={product.name}
                                         width={2000}
                                         height={2000}
-                                        className="w-full h-52 rounded-md py-12 px-10"
+                                        className="w-60 h-60 rounded-md py-12 px-10"
                                     />
                                     <button className="absolute top-2 right-2 bg-white rounded-full p-2">
                                         <Image
@@ -81,13 +81,13 @@ export default function Explore() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         {exploreProducts2.map((product) => (
                             <div key={product.id} className="mt-6">
-                                <div className="rounded-md relative bg-[#F5F5F5] pb-3">
+                                <div className="rounded-md relative bg-[#F5F5F5]">
                                     <Image
                                         src={product.image}
                                         alt={product.name}
                                         width={500}
                                         height={500}
-                                        className="w-full h-52 rounded-md py-12 px-10"
+                                        className="w-60 h-60 rounded-md py-12 px-10"
                                     />
                                     <button className="absolute top-2 right-2 bg-white rounded-full p-2">
                                         <Image

@@ -197,3 +197,71 @@ export const exploreProducts2 = [
         color: "/greencircle.svg"
     },
 ]
+
+export const wishlist = [
+    {
+        id: 1,
+        name: "Gucci duffle bag",
+        image: "/sp2.png",
+        price: 960,
+        originalPrice: 1160,
+        discount: 35
+    },
+    {
+        id: 2,
+        name: "RGB liquid CPU Cooler",
+        image: "/sp3.png",
+        price: 1960,
+    },
+    {
+        id: 3,
+        name: "GP11 Shooter USB Gamepad",
+        image: "/ep7.png",
+        price: 550,
+    },
+    {
+        id: 4,
+        name: "Quilted Satin Jacket",
+        image: "/ep8.png",
+        price: 750,
+    },
+]
+
+
+export const wishlist2 = [
+    {
+        id: 1,
+        name: "Gucci duffle bag",
+        image: "/ep3.png",
+        price: 960,
+        originalPrice: 1160,
+        discount: 35,
+        star: "/star5.png",
+        reviews: 65
+    },
+    {
+        id: 2,
+        name: "RGB liquid CPU Cooler",
+        image: "/p3.png",
+        price: 1960,
+        star: "/star5.png",
+        reviews: 65
+    },
+    {
+        id: 3,
+        name: "GP11 Shooter USB Gamepad",
+        image: "/p1.png",
+        price: 550,
+        tag: "New",
+        star: "/star5.png",
+        reviews: 65
+    },
+    {
+        id: 4,
+        name: "Quilted Satin Jacket",
+        image: "/p2.png",
+        price: 750,
+        star: "/star5.png",
+        reviews: 65
+    },
+]

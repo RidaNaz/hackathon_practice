@@ -9,9 +9,9 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div >
       <Navbar />
-      <main className="px-12 lg:px-24 xl:px-32">
+      <div className="px-12 lg:px-24 xl:px-32">
         <Hero />
         <FlashSales />
         <Category />
@@ -19,7 +19,7 @@ export default function Home() {
         <ImageSection />
         <Explore />
         <NewArrival />
-      </main>
+      </div>
     </div>
   );
 }

@@ -37,7 +37,7 @@ export default function Selling() {
                                     alt={product.name}
                                     width={2000}
                                     height={2000}
-                                    className="w-full h-52 rounded-md py-12 px-10"
+                                    className="w-60 h-60 rounded-md py-12 px-10 "
                                 />
                                 <button className="absolute top-2 right-2 bg-white rounded-full p-2">
                                     <Image

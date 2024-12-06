@@ -70,7 +70,7 @@ export default function FlashSales() {
 
                 {/* Product Slider */}
                 <Swiper
-                    slidesPerView={1}
+                    slidesPerView={0.6}
                     spaceBetween={-90}
                     modules={[Navigation, Pagination, Autoplay]} // Enable navigation, pagination, and autoplay
 
@@ -85,30 +85,30 @@ export default function FlashSales() {
                     }} // Use custom buttons
                     breakpoints={{
                         480: {
-                            slidesPerView: 1, // 1 slides on small screens
+                            slidesPerView: 0.6, // 1 slides on small screens
                         },
                         640: {
-                            slidesPerView: 2, // 2 slides on medium screens
+                            slidesPerView: 1.6, // 2 slides on medium screens
                         },
                         768: {
-                            slidesPerView: 2, // 3 slides on large screens
+                            slidesPerView: 1.6, // 3 slides on large screens
                         },
                         1024: {
-                            slidesPerView: 4, // 3 slides on large screens
+                            slidesPerView: 3.6, // 3 slides on large screens
                         },
                     }}
                     className="mySwiper"
                 >
                     {products.map((product) => (
                         <SwiperSlide key={product.id}>
-                            <div className="container w-2/3 ">
-                                <div className="rounded-md relative bg-[#F5F5F5] pb-10">
+                            <div className="container w-2/3">
+                                <div className="rounded-md relative bg-[#F5F5F5]">
                                     <Image
                                         src={product.image}
                                         alt={product.name}
-                                        width={1000}
-                                        height={1000}
-                                        className="w-full h-52 rounded-md py-12 px-10"
+                                        width={500}
+                                        height={500}
+                                        className="w-60 h-52 rounded-md py-12 px-10"
                                     />
                                     <button className="absolute bottom-0 w-full hover:bg-black text-[#F5F5F5] hover:text-white py-2 rounded-b-md">
                                         Add to Cart

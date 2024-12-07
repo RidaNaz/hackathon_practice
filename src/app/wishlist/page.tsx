@@ -8,8 +8,8 @@ export default function Wishlist() {
             <WishNav />
             <div className="px-8 md:px-12 lg:px-24 xl:px-32 mb-36">
                 <div className="flex justify-between items-center text-black mt-16">
-                    <p className="text-[20px]">Wishlist (4)</p>
-                    <button className="bg-white border-black border-opacity-50 border-t border-r border-l border-b sm:py-3 sm:px-10 rounded-sm py-1 px-5 sm:block hidden">Move All To Bag</button>
+                    <p className="sm:text-[20px] text-[18px]">Wishlist (4)</p>
+                    <button className="bg-white border-black border-opacity-50 border-t border-r border-l border-b sm:py-3 sm:px-10 rounded-sm py-2 px-4 text-sm sm:text-lg">Move All To Bag</button>
                 </div>
                 <div className="container">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
@@ -65,9 +65,9 @@ export default function Wishlist() {
                 <div className="mt-16 flex justify-between items-center">
                     <div className="flex gap-3 items-center">
                         <Image src="/rectangle.svg" alt="Next" width={15} height={15} />
-                        <p className="text-black font-medium text-[20px]">Just For You</p>
+                        <p className="text-black font-medium sm:text-[20px] text-[18px]">Just For You</p>
                     </div>
-                    <button className="bg-white text-black border-black border-opacity-50 border-t border-r border-l border-b py-1 px-5 sm:py-3 sm:px-10 rounded-sm sm:block hidden">See All</button>
+                    <button className="bg-white text-black border-black border-opacity-50 border-t border-r border-l border-b py-1 px-5 sm:py-3 sm:px-10 rounded-sm text-sm sm:text-lg">See All</button>
                 </div>
 
                 <div className="container">

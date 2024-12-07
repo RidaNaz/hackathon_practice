@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Navbar() {
+export default function ProdNav() {
   return (
     <header className="bg-black text-white text-sm border-b">
       <div className="flex justify-between items-center px-12 lg:px-32 pt-7 pb-3 bg-white text-black">
@@ -29,15 +29,22 @@ export default function Navbar() {
                 <Image
                   src="/heart.svg"
                   alt="heart icon"
-                  width={20}
-                  height={20} />
+                  width={27}
+                  height={27} />
               </Link>
               <Link href="/cart" className="text-black">
                 <Image
                   src="/cart.svg"
                   alt="cart icon"
-                  width={25}
-                  height={25} />
+                  width={29}
+                  height={29} />
+              </Link>
+              <Link href="#" className="text-black">
+                <Image
+                  src="/user.svg"
+                  alt="user icon"
+                  width={27}
+                  height={27} />
               </Link>
             </div>
           </div>

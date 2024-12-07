@@ -7,7 +7,7 @@ export default function WishNav() {
       <div className="flex justify-between items-center px-12 lg:px-32 pt-7 pb-3 bg-white text-black">
         <h1 className="text-2xl font-bold">Exclusive</h1>
         <nav className="flex space-x-16 text-md md:block hidden">
-          <Link href="#" className="hover:border-b border-b-black">Home</Link>
+          <Link href="/" className="hover:border-b border-b-black">Home</Link>
           <Link href="#" className="hover:border-b border-b-black">Contact</Link>
           <Link href="#" className="hover:border-b border-b-black">About</Link>
           <Link href="#" className="hover:border-b border-b-black">Sign Up</Link>
@@ -25,14 +25,14 @@ export default function WishNav() {
           </div>
           <div className="md:block hidden">
             <div className="flex items-center gap-5">
-              <Link href="#" className="text-black">
+              <Link href="/wishlist" className="text-black">
                 <Image
                   src="/heart4.svg"
                   alt="heart icon"
                   width={27}
                   height={27} />
               </Link>
-              <Link href="#" className="text-black">
+              <Link href="/cart" className="text-black">
                 <Image
                   src="/cart.svg"
                   alt="cart icon"

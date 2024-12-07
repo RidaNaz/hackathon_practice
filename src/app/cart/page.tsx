@@ -15,7 +15,7 @@ export default function Cart() {
                 <div className="rounded-lg overflow-hidden mt-16">
                     <table className="w-full ">
                         <thead>
-                            <tr className="bg-white shadow-sm text-left text-black">
+                            <tr className="bg-white shadow-sm font-medium text-left text-black">
                                 <th className="p-4">Product</th>
                                 <th className="p-4">Price</th>
                                 <th className="p-4">Quantity</th>
@@ -78,20 +78,18 @@ export default function Cart() {
                 </div>
 
                 {/* Coupon & Cart Total */}
-                <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
                     {/* Coupon Section */}
-                    <div className="p-4 rounded-lg">
-                        <div className="flex items-center space-x-4">
+                        <div className="flex items-center space-x-4 p-4 rounded-lg">
                             <input
                                 type="text"
                                 placeholder="Coupon Code"
-                                className="flex-1 border rounded px-4 py-3"
+                                className="flex-1 border border-black rounded px-4 py-3 "
                             />
-                            <button className="px-8 py-3 bg-red-500 text-white rounded hover:bg-red-600">
+                            <button className="px-8 py-3 bg-[#DB4444] text-white rounded hover:bg-red-600">
                                 Apply Coupon
                             </button>
                         </div>
-                    </div>
 
                     {/* Cart Total Section */}
                     <div className="border border-black rounded-md text-black p-4">
@@ -110,7 +108,7 @@ export default function Cart() {
                             <span>Total:</span>
                             <span>$1750</span>
                         </div>
-                        <button className="w-fit mt-4 px-16 py-2 bg-red-500 text-white rounded hover:bg-red-600">
+                        <button className="w-fit mt-4 px-12 py-3 bg-[#DB4444] text-white rounded hover:bg-red-600 ">
                             Proceed to Checkout
                         </button>
                     </div>

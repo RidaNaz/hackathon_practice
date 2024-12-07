@@ -1,3 +1,4 @@
+import Image from "next/image";
 import CartNav from "./CartNav";
 
 
@@ -26,9 +27,11 @@ export default function Cart() {
                             {/* Product Row 1 */}
                             <tr className="shadow-sm">
                                 <td className="p-4 flex items-center">
-                                    <img
+                                    <Image
                                         src="/p3.png" // Replace with your product image URL
                                         alt="LCD Monitor"
+                                        width={100}
+                                        height={100}
                                         className="w-16 h-16 object-cover mr-4"
                                     />
                                     <span>LCD Monitor</span>
@@ -46,9 +49,11 @@ export default function Cart() {
                             {/* Product Row 2 */}
                             <tr className="shadow-sm">
                                 <td className="p-4 flex items-center">
-                                    <img
+                                    <Image
                                         src="/p1.png" // Replace with your product image URL
                                         alt="Hi Gamepad"
+                                        width={100}
+                                        height={100}
                                         className="w-12 h-12 object-cover mr-4"
                                     />
                                     <span>Hi Gamepad</span>
@@ -80,16 +85,16 @@ export default function Cart() {
                 {/* Coupon & Cart Total */}
                 <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
                     {/* Coupon Section */}
-                        <div className="flex items-center space-x-4 p-4 rounded-lg">
-                            <input
-                                type="text"
-                                placeholder="Coupon Code"
-                                className="flex-1 border border-black rounded px-4 py-3 "
-                            />
-                            <button className="px-8 py-3 bg-[#DB4444] text-white rounded hover:bg-red-600">
-                                Apply Coupon
-                            </button>
-                        </div>
+                    <div className="flex items-center space-x-4 p-4 rounded-lg">
+                        <input
+                            type="text"
+                            placeholder="Coupon Code"
+                            className="flex-1 border border-black rounded px-4 py-3 "
+                        />
+                        <button className="px-8 py-3 bg-[#DB4444] text-white rounded hover:bg-red-600">
+                            Apply Coupon
+                        </button>
+                    </div>
 
                     {/* Cart Total Section */}
                     <div className="border border-black rounded-md text-black p-4">

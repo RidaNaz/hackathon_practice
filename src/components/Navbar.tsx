@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import MobNav from "./MobNav";
 
 export default function Navbar() {
   return (
     <header className="bg-black text-white text-sm border-b">
       <div className="flex justify-between items-center px-12 lg:px-32 pt-7 pb-3 bg-white text-black">
         <h1 className="text-2xl font-bold">Exclusive</h1>
-        <nav className="flex space-x-16 text-md md:block hidden">
+        <nav className="flex space-x-16 text-md lg:block hidden">
           <Link href="/" className="hover:border-b border-b-black">Home</Link>
           <Link href="#" className="hover:border-b border-b-black">Contact</Link>
           <Link href="#" className="hover:border-b border-b-black">About</Link>
@@ -14,16 +15,16 @@ export default function Navbar() {
         </nav>
         <div className="flex items-center space-x-4">
 
-          <div className="flex text-black relative lg:block hidden">
+          <div className="flex text-black relative md:block hidden">
             <input type="text" placeholder="What are you looking for?" className="bg-[#F5F5F5] text-black pl-3 pr-12 py-2 rounded-md  focus:outline-none focus:ring-2 focus:ring-gray-500" />
             <Image
               src="/search.svg"
               alt="search icon"
               width={15}
               height={15}
-              className="absolute right-3 top-1/2 transform -translate-y-1/2" />
+              className="absolute right-3 top-1/2 transform -translate-y-1/2 " />
           </div>
-          <div className="md:block hidden">
+          <div className="lg:block hidden">
             <div className="flex items-center gap-5">
               <Link href="/wishlist" className="text-black">
                 <Image
@@ -42,6 +43,10 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+        <div className='lg:hidden block'>
+          <MobNav />
+        </div>
+
       </div>
     </header>
   );

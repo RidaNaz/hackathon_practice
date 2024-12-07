@@ -90,16 +90,16 @@ const Footer = () => {
                         </div>
                         <div className="flex gap-4">
                             <a href="#">
-                                <img src="/fb.svg" alt="Facebook" className="w-6 h-6" />
+                                <Image src="/fb.svg" alt="Facebook" width={10} height={10} className="w-6 h-6" />
                             </a>
                             <a href="#">
-                                <img src="/twitter.svg" alt="Twitter" className="w-6 h-6" />
+                                <Image src="/twitter.svg" alt="Twitter" width={10} height={10} className="w-6 h-6" />
                             </a>
                             <a href="#">
-                                <img src="/insta.svg" alt="Instagram" className="w-6 h-6" />
+                                <Image src="/insta.svg" alt="Instagram" width={10} height={10} className="w-6 h-6" />
                             </a>
                             <a href="#">
-                                <img src="/linkedin.svg" alt="LinkedIn" className="w-6 h-6" />
+                                <Image src="/linkedin.svg" alt="LinkedIn" width={10} height={10} className="w-6 h-6" />
                             </a>
                         </div>
                     </div>

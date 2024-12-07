@@ -14,7 +14,7 @@ export default function FlashSales() {
                 <div className="mb-6">
                     <div className="flex gap-3 items-center mb-2">
                         <Image src="/rectangle.svg" alt="Next" width={15} height={15} />
-                        <p className="text-[#DB4444] font-semibold text-sm">Today's</p>
+                        <p className="text-[#DB4444] font-semibold text-sm">Today&apos;s</p>
                     </div>
 
 

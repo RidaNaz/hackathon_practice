@@ -3,7 +3,7 @@ import Image from "next/image";
 const Footer = () => {
     return (
         <footer className="bg-black text-[#FAFAFA] py-10">
-            <div className="px-12 lg:px-24 xl:px-32 mt-10">
+            <div className="px-8 md:px-12 lg:px-24 xl:px-32 mt-10">
                 <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-items-center md:justify-items-start lg:grid-cols-5 gap-10">
                     {/* Exclusive Section */}
                     <div>

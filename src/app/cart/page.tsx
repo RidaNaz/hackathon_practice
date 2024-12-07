@@ -6,7 +6,7 @@ export default function Cart() {
     return (
         <div>
             <CartNav />
-            <div className="px-12 lg:px-24 xl:px-32 mb-36 mt-16">
+            <div className="px-8 md:px-12 lg:px-24 xl:px-32 mb-36 mt-16">
                 {/* Breadcrumb */}
                 <div className="mb-6 text-sm text-black">
                     <span>Home</span> / <span className="font-bold">Cart</span>

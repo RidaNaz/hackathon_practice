@@ -18,33 +18,23 @@ export default function MobNav() {
         <SheetHeader className="pt-12 items-center">
 
           <SheetTitle>
-            <Link href="/#home" className="cursor-pointer">
+            <Link href="/" className="cursor-pointer">
               <p className='p-4 hover:bg-[#F7F7F7] rounded-2xl px-16'>Home</p>
             </Link>
           </SheetTitle>
           <SheetTitle>
-            <Link href="/#courses" className="cursor-pointer">
-              <p className='p-4 hover:bg-[#F7F7F7] rounded-2xl px-16'>Courses</p>
+            <Link href="" className="cursor-pointer">
+              <p className='p-4 hover:bg-[#F7F7F7] rounded-2xl px-16'>Contact</p>
             </Link>
           </SheetTitle>
           <SheetTitle>
-            <Link href="/#services" className="cursor-pointer">
-              <p className='p-4 hover:bg-[#F7F7F7] rounded-2xl px-16'>Services</p>
+            <Link href="" className="cursor-pointer">
+              <p className='p-4 hover:bg-[#F7F7F7] rounded-2xl px-16'>About</p>
             </Link>
           </SheetTitle>
           <SheetTitle>
-            <Link href="/#achievement" className="cursor-pointer">
-              <p className='p-4 hover:bg-[#F7F7F7] rounded-2xl px-16'>Achievement</p>
-            </Link>
-          </SheetTitle>
-          <SheetTitle>
-            <Link href="/#about-us" className="cursor-pointer">
-              <p className='p-4 hover:bg-[#F7F7F7] rounded-2xl px-16'>About Us</p>
-            </Link>
-          </SheetTitle>
-          <SheetTitle>
-            <Link href="/#testimonials" className="cursor-pointer">
-              <p className='p-4 hover:bg-[#F7F7F7] rounded-2xl px-16'>Testimonials</p>
+            <Link href="" className="cursor-pointer">
+              <p className='p-4 hover:bg-[#F7F7F7] rounded-2xl px-16'>Signup</p>
             </Link>
           </SheetTitle>
 

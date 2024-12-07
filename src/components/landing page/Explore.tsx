@@ -121,27 +121,29 @@ export default function Explore() {
                                     </p>
                                 </div>
 
-                                <div className="mt-2 flex gap-2">
-                                    <div>
-                                        <Image
-                                            src="/blackoutline.svg"
-                                            alt="black circle"
-                                            width={18}
-                                            height={18} />
-                                        <Image
-                                            src={product.color}
-                                            alt="inline circle"
-                                            width={15}
-                                            height={15}
-                                            className="-mt-4 pl-1" />
-                                    </div>
+                                <div className="flex gap-2">
+                                    <Image
+                                        src="/blackoutline.svg"
+                                        alt="black circle"
+                                        width={18}
+                                        height={18}
+                                        className="relative object-cover"
+                                    />
+                                    <Image
+                                        src={product.color}
+                                        alt="inline circle"
+                                        width={14}
+                                        height={14}
+                                        className="absolute pt-1 pl-1 object-cover items-center"
+                                    />
                                     <Image
                                         src="/circle.svg"
                                         alt="red circle"
                                         width={18}
-                                        height={18} />
+                                        height={18}
+                                        className="object-cover"
+                                    />
                                 </div>
-
                             </div>
                         ))}
                     </div>

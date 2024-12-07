@@ -6,7 +6,7 @@ export default function Wishlist() {
     return (
         <div>
             <WishNav />
-            <div className="px-12 lg:px-24 xl:px-32 mb-36">
+            <div className="px-8 md:px-12 lg:px-24 xl:px-32 mb-36">
                 <div className="flex justify-between items-center text-black mt-16">
                     <p className="text-[20px]">Wishlist (4)</p>
                     <button className="bg-white border-black border-opacity-50 border-t border-r border-l border-b sm:py-3 sm:px-10 rounded-sm py-1 px-5 sm:block hidden">Move All To Bag</button>

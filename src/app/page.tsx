@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div >
       <Navbar />
-      <div className="px-12 lg:px-24 xl:px-32">
+      <div className="px-8 md:px-12 lg:px-24 xl:px-32">
         <Hero />
         <FlashSales />
         <Category />
